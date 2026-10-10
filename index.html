@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <a href="#home" class="logo">
+            
+            <span class="logo-text">
+                
+                <strong></strong>
+            </span>
+        </a>
+
+        <button class="hamburger"
+                id="hamburger"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="nav-links">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-links" id="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link contact-btn">Contact Us</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <main>
+        <section class="hero" id="home">
+            <p class="subtitle">HI THERE — WEB DEVELOPMENT TRACK</p>
+
+            <h1>
+                Responsive Navbar with
+                <span>Hamburger Menu</span>
+            </h1>
+
+            <p class="description">
+                Build a modern, responsive navigation bar that
+                smoothly transforms into a hamburger menu on
+                smaller screens.
+            </p>
+
+            <a href="#about" class="primary-btn">
+                Explore Project <span>→</span>
+            </a>
+
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">↔</div>
+                    <h3>Responsive</h3>
+                    <p>Desktop to mobile</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">☰</div>
+                    <h3>Interactive</h3>
+                    <p>Animated menu</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">✓</div>
+                    <h3>Accessible</h3>
+                    <p>Keyboard friendly</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section" id="about">
+            <p class="section-label">ABOUT THE PROJECT</p>
+            <h2>Simple and Responsive Navigation</h2>
+            <p>
+                This project demonstrates responsive web design,
+                CSS media queries, and JavaScript interactions.
+                The navigation changes according to screen size.
+            </p>
+        </section>
+
+        <section class="content-section light-section" id="services">
+            <p class="section-label">TECHNOLOGIES</p>
+            <h2>HTML, CSS and JavaScript</h2>
+            <p>
+                HTML provides the structure, CSS handles the
+                styling and animation, and JavaScript controls
+                the hamburger menu.
+            </p>
+        </section>
+
+        <section class="content-section" id="projects">
+            <p class="section-label">FEATURES</p>
+            <h2>Designed for Every Screen</h2>
+            <p>
+                The desktop version displays horizontal links.
+                The mobile version uses a slide-in menu with
+                smooth opening and closing transitions.
+            </p>
+        </section>
+
+        <section class="content-section light-section" id="contact">
+            <p class="section-label">CONTACT</p>
+            <h2>Thank You for Visiting!</h2>
+            <p>
+                This responsive navigation project can be used
+                as a starting point for your own website.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 Veda Technology | Responsive Navbar Project
+    </footer>
+
+</body>
+</html>
